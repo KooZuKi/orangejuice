@@ -3,41 +3,79 @@
 <head>
 	<meta charset="utf-8">
 	<title>Orange Juice</title>
-	<!--font awesome-->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<!--linking with Bootstrap-->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://bootswatch.com/superhero/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 	<!--Google font-->
 	<link href='https://fonts.googleapis.com/css?family=PT+Sans+Caption' rel='stylesheet' type='text/css'>
-	<!-- My style -->
-	<link rel="stylesheet" href="css/main.css">
+	
 </head>
 <body>
-	<nav>
-		<div class="logo">
-			<img src="img/logo.png" alt="orange juice logo">
-			<div><span id="o">orange</span><span id="j">juice<sup>TM</sup></span></div>
-		</div>
-		<div class="navbar">
-			<ul>
-				<li><a href>home</a></li>
-				<li><a href>about</a></li>
-				<li><a href>case studies</a></li>
-				<li><a href>blog</a></li>
-				<li><a href>contact</a></li>
-			</ul>
-		</div>
-	</nav>
-	<div class="searchbox">
-		<input type="text" class="textinput" placeholder="SEARCH"><i class="fa fa-search"></i>
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#">Orange Juice</a>
+	    </div>
+	    <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Go!</button>
+      </form>
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1" >
+	      <ul class="nav navbar-nav">
+	        <li class="active"><a href="#">HOME <span class="sr-only">(current)</span></a></li>
+	        <li><a href="#">ABOUT</a></li>
+	        
+	      
+	        <li><a href="#">CASE STUDIES</a></li>
+	        <li><a href="#">BLOG</a></li>
+	        <li><a href="#">CONTACT</a></li>
+	      </ul>
+
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>	
+
+
+<div class="jumbotron">
+	<div class="row">
+			<div class="col-lg-6">
+				<img src="img/orange.png">
+				<p><a class="btn btn-primary btn-lg">Learn more</a></p>
+			</div>
+			<div class="col-lg-6">
+ 				<h1>Orangejuice<sup>TM</sup>use only the very best design fruits to create<br>
+				your web & app designs.</h1>
+				<div class="btn-toolbar">
+  					<a href="#" class="btn btn-primary btn-lg">Get a quote</a>
+  					<a href="#" class="btn btn-primary btn-lg">View case studies</a>
+  				</div>
+			</div>
 	</div>
-	<div class="wrapper">
-		<div class="main">
-			<h1><span class="oo">orange</span><span>juice<sup>TM</sup>  </span>use only the very best design fruits to create <br> your <span class="lightblue">web</span> & <span class="lightblue">app</span> designs.</h1>
-			<div class="buttonleft"><button type="button">get a quote</button></div>
-			<div class="buttonright"><button type="button">view case studies</button></div>
-		</div>
-	</div>
+</div>
+</div>
+
+
+	
+	
 	<footer>
 		<div></div>
 	</footer>
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>	
 </body>
 </html>
